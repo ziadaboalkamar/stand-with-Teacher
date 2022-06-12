@@ -134,12 +134,20 @@ a {
     padding: 12px;
     color: #cf1a21;
   }
+  .site-navbar .btn-outline-more a{
+    color: #cf1a21;
+  }
   .site-navbar .btn-outline-more:hover{
  background-color: #cf1a21;
  color: white !important;
  transition: all 0.3s ease;
  -webkit-transition: all 0.3s ease;
   }
+  .site-navbar .btn-outline-more:hover a{
+
+    color: white !important;
+  
+     }
   .site-navbar a{
   text-align: center;
   padding: 0px;
@@ -2670,4 +2678,66 @@ opacity:1;
   @media (max-width:567px) {
     .s130 form .inner-form .input-field.second-wrap {
     min-width: 119px;
-  }}
+  }
+  .choose_and_take .button-accept button{
+    width: 237px !important;
+  }
+
+}
+  
+/* start choose_and_take" */
+.choose_and_take{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.choose_and_take .card-body{
+  padding: 0px !important;
+}
+
+.choose_and_take .card{
+  border: none;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  margin: 0 auto;
+  padding: 55px!important;
+}
+.choose_and_take .card:hover{
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.choose_and_take .card-title{
+  font-size: 19px;
+}
+
+.choose_and_take .card-body i{
+  font-size: 39px;
+  color: #ba0308;
+}
+.choose_and_take .description-subtitle{
+  color: #ba0308;
+}
+.choose_and_take .description-title{
+  color: #283B6A;
+}
+.choose_and_take form{
+  direction: rtl;
+  text-align: right;
+  margin-top: 52px;
+}
+.choose_and_take form input{
+  background: #FAFAFA;
+  border: none;
+  margin-bottom: 50px;
+
+}
+.choose_and_take form input:focus{
+outline: #ba0308 !important;
+}
+.choose_and_take .button-accept button{
+  padding: 14px;
+    width: 300px;
+    background: #ba0308;
+    border: none;
+    border-radius: 50px;
+    margin-top: 50px;
+
+}
+/* end choose_and_take" */
